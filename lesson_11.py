@@ -9,6 +9,16 @@ I'll do a list:
 print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
-Sarah=5**2
-print(Sarah)
+#this is another activity within the exercise
+print("How old are you?", end=' ')
+age = 28
+print("How tall are you?", end=' ')
+height = ("6 foot 5 inches")
+print("How much do you weigh?", end=' ')
+weight = 230
+print(f"So, you're {age} old, {height} tall and {weight} heavy!")
+
+
+
+
 
