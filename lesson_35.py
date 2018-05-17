@@ -1,12 +1,13 @@
 from sys import exit
 def gold_room():
-    print("This room is full of gold. How much do you take?")
+    print("This room is full of gold. How much do you take")
 
-    choice= input(">")
-    if "0" in choice or 1 in choice:
-        how_much=int(choice)
+    choice = input(">")
+    if "0" in choice or "1" in choice:
+        how_much = int(choice)
     else:
-        dead("Man, learn to type a number")
+        dead("Man learn to type a number")
+
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
         exit(0)
@@ -36,7 +37,7 @@ def bear_room():
             print("I got no idea where that means")
 
 
-            
+
 def cthulhu_room():
     print("Here you see the great evil Cthulhu.")
     print("He, it, whatever stares at you and you go insane.")
@@ -54,6 +55,7 @@ def cthulhu_room():
 def dead(why):
     print(why, "Good job!")
     exit(0)
+
 def start():
     print("You are in a dark room.")
     print("There is a door to your right and left")
