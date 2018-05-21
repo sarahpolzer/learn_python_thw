@@ -8,7 +8,7 @@
 class Animal(object):
     pass
 ## Dog is-a Animal
- class Dog(Animal):
+class Dog(Animal):
      def __init___(self,name):
          # has a __init__ that takes self and name params
          self.name=name
